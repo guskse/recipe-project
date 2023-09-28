@@ -13,7 +13,7 @@ export default function Home() {
     <div className="home">
       {error && <p className="error">{error}</p>}
       {isPending && <p className="loading">Loading...</p>}
-      {data && <RecipeList recipes={data}/>}
+      {data && <RecipeList recipes={data} />}
     </div>
   );
 }
