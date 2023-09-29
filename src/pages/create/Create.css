@@ -1,0 +1,37 @@
+.create {
+  color: #555;
+  max-width: 450px;
+  margin: 60px auto;
+}
+
+.create label span {
+  display: block;
+  margin: 30px 0 10px;
+}
+
+.create p {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+.create .btn {
+  display: block;
+  width: 130px;
+  font-size: 1em;
+  padding: 10px 20px;
+  background-color: purple;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.ingredients {
+  display: flex;
+  align-items: center;
+}
+
+.ingredients .btn{
+    margin: 0 0 0 10px;
+}
